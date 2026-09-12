@@ -1,0 +1,48 @@
+name: Genera feed RSS
+
+# Il workflow NON ha uno "schedule" interno: viene innescato da un cronjob
+# esterno (es. cron-job.org) che ogni ora chiama l'endpoint GitHub API:
+#   POST https://api.github.com/repos/<utente>/comivat_stampa_mn/actions/workflows/generate-feed.yml/dispatches
+#   body: {"ref":"main"}
+#   header: Authorization: Bearer <PAT con permesso "Actions: write">
+#
+# In alternativa può essere lanciato manualmente da GitHub ("Run workflow").
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generate-feed
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installa dipendenze
+        run: pip install -r requirements.txt
+
+      - name: Genera feed.xml
+        run: python scripts/generate_feed.py
+
+      - name: Commit e push se cambiato
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- docs/feed.xml; then
+            git add docs/feed.xml
+            git commit -m "Aggiorna feed.xml [skip ci]"
+            git push
+          else
+            echo "Nessuna modifica al feed."
+          fi
