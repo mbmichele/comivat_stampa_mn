@@ -18,7 +18,16 @@ Ogni elemento del feed contiene: **titolo**, **data/ora di pubblicazione**,
 2. Lo script scrive `docs/feed.xml` (RSS 2.0).
 3. GitHub Pages pubblica il contenuto della cartella `docs/`.
 4. La GitHub Action `.github/workflows/generate-feed.yml` rigenera il feed e
-   fa il commit solo se cambia qualcosa.
+   fa il commit solo se cambia qualcosa. È attivabile in due modi
+   indipendenti e ridondanti tra loro, entrambi orari:
+   - **interno**: uno `schedule` nativo di GitHub Actions (`cron: "0 * * * *"`
+     nel file del workflow);
+   - **esterno**: un cronjob su cron-job.org che chiama l'API di GitHub.
+
+   Avere entrambi garantisce che, se uno dei due meccanismi salta
+   un'esecuzione (es. ritardi tipici degli schedule di GitHub Actions sui
+   runner condivisi, o un disservizio del cron esterno), l'altro copra
+   comunque l'aggiornamento orario del feed.
 
 ## Guida completa all'implementazione
 
@@ -87,6 +96,10 @@ workflow: serve quindi un token.
    inizia con `github_pat_...`.
 
 ### 4. Configurare il cronjob esterno su cron-job.org
+
+Il cron interno (`schedule` nel workflow) è già configurato e attivo di
+default appena il file è su `main` — non richiede setup. Questo passaggio
+aggiunge il secondo livello, esterno, come richiesto per ridondanza.
 
 1. Vai su [cron-job.org](https://cron-job.org) e crea un account gratuito
    (o accedi se ne hai già uno, come per `ameteorss`).
@@ -173,10 +186,12 @@ Requisiti:
   e quali sono.
 - Genera un file docs/feed.xml (RSS 2.0 valido, con guid, pubDate in
   formato RFC 822, fuso orario Europe/Rome).
-- GitHub Action con solo "workflow_dispatch" (nessuno schedule interno):
-  deve essere innescabile da un cronjob esterno (es. cron-job.org) che
-  chiama l'API di GitHub per lanciare il workflow ogni ora; il workflow
-  rigenera il feed e fa commit/push solo se il contenuto cambia.
+- GitHub Action con doppia attivazione oraria, sia interna che esterna:
+  uno "schedule" nativo di GitHub Actions (cron "0 * * * *") E un
+  workflow_dispatch innescabile da un cronjob esterno (es. cron-job.org)
+  che chiama l'API di GitHub; le due attivazioni sono ridondanti tra loro.
+  Il workflow rigenera il feed e fa commit/push solo se il contenuto
+  cambia.
 - docs/index.html minimale con link al feed, per la pubblicazione tramite
   GitHub Pages (branch main, cartella /docs).
 - README con istruzioni di setup (creazione repo, GitHub Pages, PAT e

@@ -1,13 +1,22 @@
 name: Genera feed RSS
 
-# Il workflow NON ha uno "schedule" interno: viene innescato da un cronjob
-# esterno (es. cron-job.org) che ogni ora chiama l'endpoint GitHub API:
-#   POST https://api.github.com/repos/<utente>/comivat_stampa_mn/actions/workflows/generate-feed.yml/dispatches
+# Il workflow ha una doppia attivazione, come richiesto:
+# - INTERNA: uno "schedule" nativo di GitHub Actions, ogni ora.
+#   (nota: gli schedule di GitHub Actions non sono garantiti al minuto
+#   esatto e su repository poco attivi possono subire ritardi in caso di
+#   carico sui runner condivisi di GitHub)
+# - ESTERNA: un cronjob esterno (es. cron-job.org) che chiama ogni ora
+#   l'endpoint GitHub API per innescare il workflow via workflow_dispatch:
+#   POST https://api.github.com/repos/mbmichele/comivat_stampa_mn/actions/workflows/generate-feed.yml/dispatches
 #   body: {"ref":"main"}
 #   header: Authorization: Bearer <PAT con permesso "Actions: write">
 #
-# In alternativa può essere lanciato manualmente da GitHub ("Run workflow").
+# Le due attivazioni sono indipendenti e ridondanti tra loro: se una delle
+# due salta un'esecuzione, l'altra copre comunque l'aggiornamento orario.
+# Può anche essere lanciato manualmente da GitHub ("Run workflow").
 on:
+  schedule:
+    - cron: "0 * * * *"
   workflow_dispatch: {}
 
 permissions:
