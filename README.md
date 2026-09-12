@@ -22,26 +22,23 @@ Ogni elemento del feed contiene: **titolo**, **data/ora di pubblicazione**,
 
 ## Guida completa all'implementazione
 
-### 1. Creare il repository e caricare il codice
+### 1. Caricare il codice nel repository
 
-1. Su GitHub crea un nuovo repository pubblico chiamato `comivat_stampa_mn`
-   (se non esiste già). Deve essere **pubblico**, altrimenti GitHub Pages
-   gratuito non pubblica il sito.
-2. Estrai lo zip di questo pacchetto e carica tutto il contenuto sul
-   branch `main`, ad esempio da terminale:
+Il repository [mbmichele/comivat_stampa_mn](https://github.com/mbmichele/comivat_stampa_mn)
+è già stato creato. Per aggiornarlo con questo pacchetto:
 
-   ```bash
-   cd comivat_stampa_mn
-   git init
-   git remote add origin https://github.com/<utente>/comivat_stampa_mn.git
-   git add -A
-   git commit -m "Setup iniziale"
-   git branch -M main
-   git push -u origin main
-   ```
+```bash
+cd comivat_stampa_mn
+git init
+git remote add origin https://github.com/mbmichele/comivat_stampa_mn.git
+git add -A
+git commit -m "Aggiornamento pacchetto"
+git branch -M main
+git push -u origin main
+```
 
-   (in alternativa puoi trascinare i file dall'interfaccia web di GitHub,
-   con "Add file → Upload files").
+(in alternativa puoi trascinare i file dall'interfaccia web di GitHub,
+con "Add file → Upload files").
 
 ### 2. Rendere pubblico l'accesso HTTP al feed (GitHub Pages)
 
@@ -53,14 +50,14 @@ Ogni elemento del feed contiene: **titolo**, **data/ora di pubblicazione**,
    del tipo:
 
    ```
-   https://<utente>.github.io/comivat_stampa_mn/
+   https://mbmichele.github.io/comivat_stampa_mn/
    ```
 
 5. Il feed RSS sarà raggiungibile via HTTP (accesso pubblico, nessun
    login richiesto) all'indirizzo:
 
    ```
-   https://<utente>.github.io/comivat_stampa_mn/feed.xml
+   https://mbmichele.github.io/comivat_stampa_mn/feed.xml
    ```
 
    Questo è l'URL da inserire in un lettore RSS o da collegare al sito del
@@ -98,7 +95,7 @@ workflow: serve quindi un token.
    - **Title**: es. `comivat_stampa_mn - genera feed`
    - **URL**:
      ```
-     https://api.github.com/repos/<utente>/comivat_stampa_mn/actions/workflows/generate-feed.yml/dispatches
+     https://api.github.com/repos/mbmichele/comivat_stampa_mn/actions/workflows/generate-feed.yml/dispatches
      ```
 4. Apri la sezione **Advanced** (o "Extended data") e imposta:
    - **Request method**: `POST`
@@ -130,16 +127,16 @@ Prima di aspettare il cronjob, genera subito il feed una volta a mano:
 1. Nel repository vai su **Actions → Genera feed RSS**.
 2. Clicca **Run workflow** (branch `main`) → **Run workflow**.
 3. Attendi il completamento (icona verde) e verifica che
-   `https://<utente>.github.io/comivat_stampa_mn/feed.xml` risponda con il
+   `https://mbmichele.github.io/comivat_stampa_mn/feed.xml` risponda con il
    feed aggiornato.
 
 ### Riepilogo URL utili
 
 | Cosa | URL |
 |---|---|
-| Feed RSS pubblico | `https://<utente>.github.io/comivat_stampa_mn/feed.xml` |
-| Pagina informativa | `https://<utente>.github.io/comivat_stampa_mn/` |
-| Endpoint per il cronjob | `https://api.github.com/repos/<utente>/comivat_stampa_mn/actions/workflows/generate-feed.yml/dispatches` |
+| Feed RSS pubblico | `https://mbmichele.github.io/comivat_stampa_mn/feed.xml` |
+| Pagina informativa | `https://mbmichele.github.io/comivat_stampa_mn/` |
+| Endpoint per il cronjob | `https://api.github.com/repos/mbmichele/comivat_stampa_mn/actions/workflows/generate-feed.yml/dispatches` |
 
 ## Sviluppo locale
 
