@@ -5,7 +5,14 @@
 <link>https://www.provincia.mantova.it/cs_home.jsp?ID_LINK=64&amp;area=24</link>
 <description>Feed RSS non ufficiale generato tramite scraping dell'archivio comunicati stampa della Provincia di Mantova. Non è un servizio ufficiale dell'ente.</description>
 <language>it-IT</language>
-<lastBuildDate>Thu, 17 Sep 2026 13:08:43 +0200</lastBuildDate>
+<lastBuildDate>Thu, 17 Sep 2026 14:01:05 +0200</lastBuildDate>
+<item>
+<title>Nuvolari genio della velocitŕ - Mostra celebrativa dei 40 anni di AMAMS</title>
+<link>https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24100&amp;COL0003=1&amp;COL0003=2&amp;COL0003=3</link>
+<guid isPermaLink="true">https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24100&amp;COL0003=1&amp;COL0003=2&amp;COL0003=3</guid>
+<pubDate>Thu, 17 Sep 2026 13:15:00 +0200</pubDate>
+<description>Dal 19 settembre al 18 ottobre 2026 a Casa del Mantegna a Mantova</description>
+</item>
 <item>
 <title>Limite di 70 all'ora a San Giovanni del Dosso</title>
 <link>https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24098&amp;COL0003=1&amp;COL0003=2</link>
@@ -137,13 +144,6 @@
 <link>https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24038&amp;COL0003=1&amp;COL0003=2</link>
 <guid isPermaLink="true">https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24038&amp;COL0003=1&amp;COL0003=2</guid>
 <pubDate>Thu, 30 Jul 2026 15:51:00 +0200</pubDate>
-<description></description>
-</item>
-<item>
-<title>Job Day al Centro per l'Impiego di Ostiglia con il Gruppo Saviola, un centinaio i partecipanti</title>
-<link>https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24035&amp;COL0003=1</link>
-<guid isPermaLink="true">https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24035&amp;COL0003=1</guid>
-<pubDate>Tue, 28 Jul 2026 17:57:00 +0200</pubDate>
 <description></description>
 </item>
 </channel>
