@@ -5,7 +5,14 @@
 <link>https://www.provincia.mantova.it/cs_home.jsp?ID_LINK=64&amp;area=24</link>
 <description>Feed RSS non ufficiale generato tramite scraping dell'archivio comunicati stampa della Provincia di Mantova. Non è un servizio ufficiale dell'ente.</description>
 <language>it-IT</language>
-<lastBuildDate>Mon, 21 Sep 2026 08:01:09 +0200</lastBuildDate>
+<lastBuildDate>Mon, 21 Sep 2026 10:01:11 +0200</lastBuildDate>
+<item>
+<title>PORTO APERTO 2026, IL PUNTO SUGLI INVESTIMENTI PUBBLICI E PRIVATI A VALDARO E LE ASPETTATIVE DEI SINDACI NEL CONTESTO DELLA ZLS LOMBARDA</title>
+<link>https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24103&amp;COL0003=1&amp;COL0003=2</link>
+<guid isPermaLink="true">https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24103&amp;COL0003=1&amp;COL0003=2</guid>
+<pubDate>Fri, 18 Sep 2026 09:05:00 +0200</pubDate>
+<description>Appuntamento domani</description>
+</item>
 <item>
 <title>Nuvolari genio della velocitŕ - Mostra celebrativa dei 40 anni di AMAMS</title>
 <link>https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24100&amp;COL0003=1&amp;COL0003=2&amp;COL0003=3</link>
@@ -137,13 +144,6 @@
 <link>https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24039&amp;COL0003=1&amp;COL0003=2</link>
 <guid isPermaLink="true">https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24039&amp;COL0003=1&amp;COL0003=2</guid>
 <pubDate>Thu, 30 Jul 2026 17:08:00 +0200</pubDate>
-<description></description>
-</item>
-<item>
-<title>Il Console Generale cinese in visita nel Mantovano: eccellenze del territorio e accordi tra imprese italiane e realtŕ della Repubblica Popolare</title>
-<link>https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24038&amp;COL0003=1&amp;COL0003=2</link>
-<guid isPermaLink="true">https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24038&amp;COL0003=1&amp;COL0003=2</guid>
-<pubDate>Thu, 30 Jul 2026 15:51:00 +0200</pubDate>
 <description></description>
 </item>
 </channel>
