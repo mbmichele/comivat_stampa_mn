@@ -5,7 +5,14 @@
 <link>https://www.provincia.mantova.it/cs_home.jsp?ID_LINK=64&amp;area=24</link>
 <description>Feed RSS non ufficiale generato tramite scraping dell'archivio comunicati stampa della Provincia di Mantova. Non è un servizio ufficiale dell'ente.</description>
 <language>it-IT</language>
-<lastBuildDate>Tue, 22 Sep 2026 12:01:48 +0200</lastBuildDate>
+<lastBuildDate>Tue, 22 Sep 2026 14:01:10 +0200</lastBuildDate>
+<item>
+<title>Premio Zamberletti all'Associazione Terre dei Gonzaga</title>
+<link>https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24105&amp;COL0003=1&amp;COL0003=2</link>
+<guid isPermaLink="true">https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24105&amp;COL0003=1&amp;COL0003=2</guid>
+<pubDate>Tue, 22 Sep 2026 13:08:00 +0200</pubDate>
+<description>La consegna domenica a Milano in occasione della Giornata Regionale della Protezione Civile</description>
+</item>
 <item>
 <title>PORTO APERTO 2026, IL PUNTO SUGLI INVESTIMENTI PUBBLICI E PRIVATI A VALDARO E LE ASPETTATIVE DEI SINDACI NEL CONTESTO DELLA ZLS LOMBARDA</title>
 <link>https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24103&amp;COL0003=1&amp;COL0003=2</link>
@@ -137,13 +144,6 @@
 <link>https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24044&amp;COL0003=1&amp;COL0003=2</link>
 <guid isPermaLink="true">https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24044&amp;COL0003=1&amp;COL0003=2</guid>
 <pubDate>Fri, 31 Jul 2026 21:12:00 +0200</pubDate>
-<description></description>
-</item>
-<item>
-<title>Nuova segnaletica sulle strade provinciali, la Provincia approva progetto da mezzo milione di euro</title>
-<link>https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24039&amp;COL0003=1&amp;COL0003=2</link>
-<guid isPermaLink="true">https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24039&amp;COL0003=1&amp;COL0003=2</guid>
-<pubDate>Thu, 30 Jul 2026 17:08:00 +0200</pubDate>
 <description></description>
 </item>
 </channel>
