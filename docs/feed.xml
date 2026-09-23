@@ -5,7 +5,21 @@
 <link>https://www.provincia.mantova.it/cs_home.jsp?ID_LINK=64&amp;area=24</link>
 <description>Feed RSS non ufficiale generato tramite scraping dell'archivio comunicati stampa della Provincia di Mantova. Non è un servizio ufficiale dell'ente.</description>
 <language>it-IT</language>
-<lastBuildDate>Wed, 23 Sep 2026 14:01:12 +0200</lastBuildDate>
+<lastBuildDate>Wed, 23 Sep 2026 16:01:44 +0200</lastBuildDate>
+<item>
+<title>GALLERIA STORICA DEI VIGILI DEL FUOCO, PARTITI I RILIEVI PER LA RISTRUTTURAZIONE</title>
+<link>https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24110&amp;COL0003=1&amp;COL0003=2</link>
+<guid isPermaLink="true">https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24110&amp;COL0003=1&amp;COL0003=2</guid>
+<pubDate>Wed, 23 Sep 2026 15:30:00 +0200</pubDate>
+<description></description>
+</item>
+<item>
+<title>I PRECURSORI DELLA VIOLENZA, CONFERENZA RINVIATA A NOVEMBRE PER LA SCOMPARSA DI SIMONA BOSELLI</title>
+<link>https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24109&amp;COL0003=1&amp;COL0003=2&amp;COL0003=3</link>
+<guid isPermaLink="true">https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24109&amp;COL0003=1&amp;COL0003=2&amp;COL0003=3</guid>
+<pubDate>Wed, 23 Sep 2026 15:20:00 +0200</pubDate>
+<description></description>
+</item>
 <item>
 <title>Apertura della stagione venatoria: controllati 200 cacciatori da Polizia Provinciale e Guardie volontarie</title>
 <link>https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24107&amp;COL0003=1&amp;COL0003=2</link>
@@ -130,20 +144,6 @@
 <link>https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24054&amp;COL0003=1&amp;COL0003=2</link>
 <guid isPermaLink="true">https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24054&amp;COL0003=1&amp;COL0003=2</guid>
 <pubDate>Thu, 06 Aug 2026 11:31:00 +0200</pubDate>
-<description></description>
-</item>
-<item>
-<title>Previsioni Istat 2027-2037: la popolazione mantovana cresce lievemente, ma cambia nella struttura per etŕ</title>
-<link>https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24108&amp;COL0003=1&amp;COL0003=2</link>
-<guid isPermaLink="true">https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24108&amp;COL0003=1&amp;COL0003=2</guid>
-<pubDate>Mon, 03 Aug 2026 11:23:00 +0200</pubDate>
-<description></description>
-</item>
-<item>
-<title>Accordo tra Provincia e TCF Rosignoli per passaggio nell'area di Valdaro</title>
-<link>https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24048&amp;COL0003=1&amp;COL0003=2</link>
-<guid isPermaLink="true">https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24048&amp;COL0003=1&amp;COL0003=2</guid>
-<pubDate>Fri, 31 Jul 2026 22:00:00 +0200</pubDate>
 <description></description>
 </item>
 </channel>
