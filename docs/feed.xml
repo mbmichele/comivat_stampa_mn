@@ -5,7 +5,21 @@
 <link>https://www.provincia.mantova.it/cs_home.jsp?ID_LINK=64&amp;area=24</link>
 <description>Feed RSS non ufficiale generato tramite scraping dell'archivio comunicati stampa della Provincia di Mantova. Non è un servizio ufficiale dell'ente.</description>
 <language>it-IT</language>
-<lastBuildDate>Wed, 30 Sep 2026 12:01:12 +0200</lastBuildDate>
+<lastBuildDate>Wed, 30 Sep 2026 12:56:42 +0200</lastBuildDate>
+<item>
+<title>Tratto Gambarara - Cittadella, il limite massimo di velocitŕ si abbassa ai 70 all'ora</title>
+<link>https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24120&amp;COL0003=1&amp;COL0003=2</link>
+<guid isPermaLink="true">https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24120&amp;COL0003=1&amp;COL0003=2</guid>
+<pubDate>Wed, 30 Sep 2026 12:40:00 +0200</pubDate>
+<description>Dal 12 ottobre 2026</description>
+</item>
+<item>
+<title>Job Day Kärcher a Suzzara</title>
+<link>https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24119&amp;COL0003=1&amp;COL0003=2</link>
+<guid isPermaLink="true">https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24119&amp;COL0003=1&amp;COL0003=2</guid>
+<pubDate>Wed, 30 Sep 2026 12:04:00 +0200</pubDate>
+<description>Mercoledě 14 ottobre 2026 dalle 9 alle 13</description>
+</item>
 <item>
 <title>Mobilitŕ sostenibile, dal piano spostamenti casa - lavoro alle scelte quotidiane</title>
 <link>https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24118&amp;COL0003=1&amp;COL0003=2</link>
@@ -131,20 +145,6 @@
 <guid isPermaLink="true">https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24060&amp;COL0003=1&amp;COL0003=2</guid>
 <pubDate>Fri, 07 Aug 2026 13:13:00 +0200</pubDate>
 <description>CONCLUSO L’INTERVENTO DA 1,1 MILIONI DI EURO</description>
-</item>
-<item>
-<title>FUNZIONI DI SEGRETERIA GENERALE,  DOPPIO INCARICO PER LA DOTTORESSA VALERIA FERRO  FORMALIZZATA LA STRATEGICA INTESA TRA PROVINCIA DI MANTOVA E CASTIGLIONE DELLE STIVIERE</title>
-<link>https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24059&amp;COL0003=1&amp;COL0003=2</link>
-<guid isPermaLink="true">https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24059&amp;COL0003=1&amp;COL0003=2</guid>
-<pubDate>Thu, 06 Aug 2026 16:41:00 +0200</pubDate>
-<description>Dopo l’approvazione all’unanimitŕ in Consiglio nella seduta del 31 luglio della convenzione di segreteria</description>
-</item>
-<item>
-<title>Interruzione della provinciale 30 a Barbassolo</title>
-<link>https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24057&amp;COL0003=1&amp;COL0003=2</link>
-<guid isPermaLink="true">https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24057&amp;COL0003=1&amp;COL0003=2</guid>
-<pubDate>Thu, 06 Aug 2026 15:41:00 +0200</pubDate>
-<description>Da sabato 8 agosto per la sostituzione di un chiusino</description>
 </item>
 </channel>
 </rss>
