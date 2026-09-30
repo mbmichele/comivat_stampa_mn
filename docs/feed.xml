@@ -5,7 +5,14 @@
 <link>https://www.provincia.mantova.it/cs_home.jsp?ID_LINK=64&amp;area=24</link>
 <description>Feed RSS non ufficiale generato tramite scraping dell'archivio comunicati stampa della Provincia di Mantova. Non è un servizio ufficiale dell'ente.</description>
 <language>it-IT</language>
-<lastBuildDate>Wed, 30 Sep 2026 14:01:10 +0200</lastBuildDate>
+<lastBuildDate>Wed, 30 Sep 2026 16:01:11 +0200</lastBuildDate>
+<item>
+<title>Empori. comunitŕ che rigenerano, presentato il Report Attivitŕ della Rete degli Empori del Mantovano anno 2025</title>
+<link>https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24121&amp;COL0003=1&amp;COL0003=2</link>
+<guid isPermaLink="true">https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24121&amp;COL0003=1&amp;COL0003=2</guid>
+<pubDate>Wed, 30 Sep 2026 15:08:00 +0200</pubDate>
+<description></description>
+</item>
 <item>
 <title>Tratto Gambarara - Cittadella, il limite massimo di velocitŕ si abbassa ai 70 all'ora</title>
 <link>https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24120&amp;COL0003=1&amp;COL0003=2</link>
@@ -138,13 +145,6 @@
 <guid isPermaLink="true">https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24061&amp;COL0003=1&amp;COL0003=2</guid>
 <pubDate>Sat, 08 Aug 2026 18:28:00 +0200</pubDate>
 <description>Il presidente della Provincia Carlo Bottani: «Il sogno di Steno Marcegaglia puň diventare realtŕ. Una svolta per il territorio mantovano»</description>
-</item>
-<item>
-<title>RISTRUTTURAZIONE DEL PONTE SUL MINCIO A GOVERNOLO</title>
-<link>https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24060&amp;COL0003=1&amp;COL0003=2</link>
-<guid isPermaLink="true">https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24060&amp;COL0003=1&amp;COL0003=2</guid>
-<pubDate>Fri, 07 Aug 2026 13:13:00 +0200</pubDate>
-<description>CONCLUSO L’INTERVENTO DA 1,1 MILIONI DI EURO</description>
 </item>
 </channel>
 </rss>
