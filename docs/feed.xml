@@ -5,7 +5,14 @@
 <link>https://www.provincia.mantova.it/cs_home.jsp?ID_LINK=64&amp;area=24</link>
 <description>Feed RSS non ufficiale generato tramite scraping dell'archivio comunicati stampa della Provincia di Mantova. Non è un servizio ufficiale dell'ente.</description>
 <language>it-IT</language>
-<lastBuildDate>Fri, 02 Oct 2026 10:01:15 +0200</lastBuildDate>
+<lastBuildDate>Fri, 02 Oct 2026 12:01:15 +0200</lastBuildDate>
+<item>
+<title>I precursori della violenza, se ne parla lunedě a Pegognaga</title>
+<link>https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24124&amp;COL0003=1&amp;COL0003=2</link>
+<guid isPermaLink="true">https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24124&amp;COL0003=1&amp;COL0003=2</guid>
+<pubDate>Fri, 02 Oct 2026 11:01:00 +0200</pubDate>
+<description></description>
+</item>
 <item>
 <title>Empori. comunitŕ che rigenerano, presentato il Report Attivitŕ della Rete degli Empori del Mantovano anno 2025</title>
 <link>https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24121&amp;COL0003=1&amp;COL0003=2</link>
@@ -138,13 +145,6 @@
 <guid isPermaLink="true">https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24062&amp;COL0003=1&amp;COL0003=2</guid>
 <pubDate>Mon, 10 Aug 2026 13:40:00 +0200</pubDate>
 <description></description>
-</item>
-<item>
-<title>RACCORDO FERROVIARIO GAZOLDO - CASTELLUCCHIO: LA CAMERA SBLOCCA L'OPERA</title>
-<link>https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24061&amp;COL0003=1&amp;COL0003=2</link>
-<guid isPermaLink="true">https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24061&amp;COL0003=1&amp;COL0003=2</guid>
-<pubDate>Sat, 08 Aug 2026 18:28:00 +0200</pubDate>
-<description>Il presidente della Provincia Carlo Bottani: «Il sogno di Steno Marcegaglia puň diventare realtŕ. Una svolta per il territorio mantovano»</description>
 </item>
 </channel>
 </rss>
