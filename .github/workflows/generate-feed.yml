@@ -7,7 +7,7 @@ name: Genera feed RSS
 #   carico sui runner condivisi di GitHub)
 # - ESTERNA: un cronjob esterno (es. cron-job.org) che chiama ogni ora
 #   l'endpoint GitHub API per innescare il workflow via workflow_dispatch:
-#   POST https://api.github.com/repos/mbmichele/comivat_stampa_mn/actions/workflows/generate-feed.yml/dispatches
+#   POST https://api.github.com/repos/mbmichele/comunicaz_prov_mn/actions/workflows/generate-feed.yml/dispatches
 #   body: {"ref":"main"}
 #   header: Authorization: Bearer <PAT con permesso "Actions: write">
 #
@@ -24,7 +24,7 @@ permissions:
 
 concurrency:
   group: generate-feed
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -48,10 +48,24 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if ! git diff --quiet -- docs/feed.xml; then
-            git add docs/feed.xml
-            git commit -m "Aggiorna feed.xml [skip ci]"
-            git push
-          else
+          if git diff --quiet -- docs/feed.xml; then
             echo "Nessuna modifica al feed."
+            exit 0
           fi
+          git add docs/feed.xml
+          git commit -m "Aggiorna feed.xml [skip ci]"
+          # Il cron interno e quello esterno possono scattare quasi nello
+          # stesso istante: se nel frattempo un'altra esecuzione ha già
+          # pushato, riallinea con rebase e riprova (fino a 5 volte) invece
+          # di fallire.
+          for i in 1 2 3 4 5; do
+            if git push; then
+              exit 0
+            fi
+            echo "Push rifiutato (probabile esecuzione concorrente), riprovo tra 5s..."
+            sleep 5
+            git fetch origin main
+            git rebase origin/main
+          done
+          echo "Push fallito dopo 5 tentativi."
+          exit 1

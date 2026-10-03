@@ -1,108 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
 <channel>
-<title>Comunicati stampa - Provincia di Mantova (feed non ufficiale)</title>
-<link>https://www.provincia.mantova.it/cs_home.jsp?ID_LINK=64&amp;area=24</link>
-<description>Feed RSS non ufficiale generato tramite scraping dell'archivio comunicati stampa della Provincia di Mantova. Non è un servizio ufficiale dell'ente.</description>
+<title>Comunicati, notizie ed eventi - Provincia di Mantova (feed non ufficiale)</title>
+<link>https://www.provincia.mantova.it/</link>
+<description>Feed RSS non ufficiale che aggrega comunicati stampa, notizie ed eventi pubblicati dalla Provincia di Mantova. Non è un servizio ufficiale dell'ente.</description>
 <language>it-IT</language>
-<lastBuildDate>Sat, 03 Oct 2026 16:01:12 +0200</lastBuildDate>
+<lastBuildDate>Sat, 03 Oct 2026 16:31:40 +0200</lastBuildDate>
 <item>
-<title>I precursori della violenza, se ne parla lunedě a Pegognaga</title>
-<link>https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24124&amp;COL0003=1&amp;COL0003=2</link>
-<guid isPermaLink="true">https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24124&amp;COL0003=1&amp;COL0003=2</guid>
-<pubDate>Fri, 02 Oct 2026 11:01:00 +0200</pubDate>
-<description></description>
+<title>I precursori della violenza, se ne parla a Pegognaga</title>
+<link>https://www.provincia.mantova.it/events_detail.jsp?IDAREA=35&amp;ID_EVENT=1565&amp;GTEMPLATE=events.jsp</link>
+<guid isPermaLink="true">https://www.provincia.mantova.it/events_detail.jsp?IDAREA=35&amp;ID_EVENT=1565&amp;GTEMPLATE=events.jsp</guid>
+<pubDate>Mon, 05 Oct 2026 00:00:00 +0200</pubDate>
+<description>Rassegna Ore 18, Sala Bombetti, piazza Vittorio Veneto</description>
 </item>
 <item>
-<title>Empori. comunitŕ che rigenerano, presentato il Report Attivitŕ della Rete degli Empori del Mantovano anno 2025</title>
-<link>https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24121&amp;COL0003=1&amp;COL0003=2</link>
-<guid isPermaLink="true">https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24121&amp;COL0003=1&amp;COL0003=2</guid>
-<pubDate>Wed, 30 Sep 2026 15:08:00 +0200</pubDate>
-<description></description>
+<title>I precursori della violenza - Il ruolo dei genitori, della scuola, i segnali da non sottovalutare e i possibili interventi</title>
+<link>https://www.provincia.mantova.it/events_detail.jsp?IDAREA=35&amp;ID_EVENT=1561&amp;GTEMPLATE=events.jsp</link>
+<guid isPermaLink="true">https://www.provincia.mantova.it/events_detail.jsp?IDAREA=35&amp;ID_EVENT=1561&amp;GTEMPLATE=events.jsp</guid>
+<pubDate>Mon, 05 Oct 2026 00:00:00 +0200</pubDate>
+<description>Fino al 09.11.2026. Convegno Ciclo di incontri</description>
 </item>
 <item>
-<title>Tratto Gambarara - Cittadella, il limite massimo di velocitŕ si abbassa ai 70 all'ora</title>
-<link>https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24120&amp;COL0003=1&amp;COL0003=2</link>
-<guid isPermaLink="true">https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24120&amp;COL0003=1&amp;COL0003=2</guid>
-<pubDate>Wed, 30 Sep 2026 12:40:00 +0200</pubDate>
-<description>Dal 12 ottobre 2026</description>
+<title>Scuola in fattoria</title>
+<link>https://www.provincia.mantova.it/events_detail.jsp?IDAREA=35&amp;ID_EVENT=1563&amp;GTEMPLATE=events.jsp</link>
+<guid isPermaLink="true">https://www.provincia.mantova.it/events_detail.jsp?IDAREA=35&amp;ID_EVENT=1563&amp;GTEMPLATE=events.jsp</guid>
+<pubDate>Thu, 01 Oct 2026 00:00:00 +0200</pubDate>
+<description>Ore 15.30</description>
 </item>
 <item>
-<title>Job Day Kärcher a Suzzara</title>
-<link>https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24119&amp;COL0003=1&amp;COL0003=2</link>
-<guid isPermaLink="true">https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24119&amp;COL0003=1&amp;COL0003=2</guid>
-<pubDate>Wed, 30 Sep 2026 12:04:00 +0200</pubDate>
-<description>Mercoledě 14 ottobre 2026 dalle 9 alle 13</description>
+<title>CENTENARIO DEL PONTE DI TORRE D'OGLIO: IL 3 OTTOBRE VISITE GUIDATE E INAUGURAZIONE MOSTRA A SAN MATTEO</title>
+<link>https://www.provincia.mantova.it/news_detail.jsp?GTemplate=default.jsp&amp;ID_NEWS=3947&amp;areaNews=11</link>
+<guid isPermaLink="true">https://www.provincia.mantova.it/news_detail.jsp?GTemplate=default.jsp&amp;ID_NEWS=3947&amp;areaNews=11</guid>
+<pubDate>Tue, 29 Sep 2026 14:14:19 +0200</pubDate>
+<description>Protagonisti i bambini a cui idealmente verrà consegnato il manufatto per preservalo nei prossimi 100 anni</description>
 </item>
 <item>
-<title>Mobilitŕ sostenibile, dal piano spostamenti casa - lavoro alle scelte quotidiane</title>
-<link>https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24118&amp;COL0003=1&amp;COL0003=2</link>
-<guid isPermaLink="true">https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24118&amp;COL0003=1&amp;COL0003=2</guid>
-<pubDate>Tue, 29 Sep 2026 15:58:00 +0200</pubDate>
-<description>Corso per i dipendenti della Provincia</description>
+<title>NUVOLARI GENIO DELLA VELOCITA' - MOSTRA CELEBRATIVA DEI 40 ANNI DI AMAMS</title>
+<link>https://www.provincia.mantova.it/events_detail.jsp?IDAREA=35&amp;ID_EVENT=1562&amp;GTEMPLATE=events.jsp</link>
+<guid isPermaLink="true">https://www.provincia.mantova.it/events_detail.jsp?IDAREA=35&amp;ID_EVENT=1562&amp;GTEMPLATE=events.jsp</guid>
+<pubDate>Sat, 19 Sep 2026 00:00:00 +0200</pubDate>
+<description>Fino al 18.10.2026. Mostra Casa del Mantegna</description>
 </item>
 <item>
-<title>Concessioni stradali e pubblicitarie, la Provincia adotta una nuova procedura on line</title>
-<link>https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24116&amp;COL0003=1&amp;COL0003=2</link>
-<guid isPermaLink="true">https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24116&amp;COL0003=1&amp;COL0003=2</guid>
-<pubDate>Mon, 28 Sep 2026 16:29:00 +0200</pubDate>
-<description></description>
+<title>I precursori della violenza – Il ruolo di genitori e scuola, i segnali da non sottovalutare e i possibili interventi</title>
+<link>https://www.provincia.mantova.it/news_detail.jsp?GTemplate=default.jsp&amp;ID_NEWS=3945&amp;areaNews=11</link>
+<guid isPermaLink="true">https://www.provincia.mantova.it/news_detail.jsp?GTemplate=default.jsp&amp;ID_NEWS=3945&amp;areaNews=11</guid>
+<pubDate>Thu, 17 Sep 2026 15:29:50 +0200</pubDate>
+<description>Ciclo di incontri</description>
 </item>
 <item>
-<title>GALLERIA STORICA DEI VIGILI DEL FUOCO, PARTITI I RILIEVI PER LA RISTRUTTURAZIONE</title>
-<link>https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24110&amp;COL0003=1&amp;COL0003=2</link>
-<guid isPermaLink="true">https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24110&amp;COL0003=1&amp;COL0003=2</guid>
-<pubDate>Wed, 23 Sep 2026 15:30:00 +0200</pubDate>
-<description></description>
-</item>
-<item>
-<title>I PRECURSORI DELLA VIOLENZA, CONFERENZA RINVIATA A NOVEMBRE PER LA SCOMPARSA DI SIMONA BOSELLI</title>
-<link>https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24109&amp;COL0003=1&amp;COL0003=2&amp;COL0003=3</link>
-<guid isPermaLink="true">https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24109&amp;COL0003=1&amp;COL0003=2&amp;COL0003=3</guid>
-<pubDate>Wed, 23 Sep 2026 15:20:00 +0200</pubDate>
-<description></description>
-</item>
-<item>
-<title>Apertura della stagione venatoria: controllati 200 cacciatori da Polizia Provinciale e Guardie volontarie</title>
-<link>https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24107&amp;COL0003=1&amp;COL0003=2</link>
-<guid isPermaLink="true">https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24107&amp;COL0003=1&amp;COL0003=2</guid>
-<pubDate>Wed, 23 Sep 2026 10:16:00 +0200</pubDate>
-<description></description>
-</item>
-<item>
-<title>DEMOLIZIONE DEL VECCHIO PONTE IN ALVEO DI SAN BENEDETTO, DAL 19 AL 23 OTTOBRE NECESSARIO LO STOP AL TRANSITO ANCHE SU QUELLO NUOVO</title>
-<link>https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24106&amp;COL0003=1&amp;COL0003=2&amp;COL0003=3</link>
-<guid isPermaLink="true">https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24106&amp;COL0003=1&amp;COL0003=2&amp;COL0003=3</guid>
-<pubDate>Tue, 22 Sep 2026 16:27:00 +0200</pubDate>
-<description></description>
-</item>
-<item>
-<title>Premio Zamberletti all'Associazione Terre dei Gonzaga</title>
-<link>https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24105&amp;COL0003=1&amp;COL0003=2</link>
-<guid isPermaLink="true">https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24105&amp;COL0003=1&amp;COL0003=2</guid>
-<pubDate>Tue, 22 Sep 2026 13:08:00 +0200</pubDate>
-<description>La consegna domenica a Milano in occasione della Giornata Regionale della Protezione Civile</description>
-</item>
-<item>
-<title>PORTO APERTO 2026, IL PUNTO SUGLI INVESTIMENTI PUBBLICI E PRIVATI A VALDARO E LE ASPETTATIVE DEI SINDACI NEL CONTESTO DELLA ZLS LOMBARDA</title>
-<link>https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24103&amp;COL0003=1&amp;COL0003=2</link>
-<guid isPermaLink="true">https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24103&amp;COL0003=1&amp;COL0003=2</guid>
-<pubDate>Fri, 18 Sep 2026 09:05:00 +0200</pubDate>
-<description>Appuntamento domani</description>
-</item>
-<item>
-<title>Nuvolari genio della velocitŕ - Mostra celebrativa dei 40 anni di AMAMS</title>
-<link>https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24100&amp;COL0003=1&amp;COL0003=2&amp;COL0003=3</link>
-<guid isPermaLink="true">https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24100&amp;COL0003=1&amp;COL0003=2&amp;COL0003=3</guid>
-<pubDate>Thu, 17 Sep 2026 13:15:00 +0200</pubDate>
-<description>Dal 19 settembre al 18 ottobre 2026 a Casa del Mantegna a Mantova</description>
-</item>
-<item>
-<title>Limite di 70 all'ora a San Giovanni del Dosso</title>
-<link>https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24098&amp;COL0003=1&amp;COL0003=2</link>
-<guid isPermaLink="true">https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24098&amp;COL0003=1&amp;COL0003=2</guid>
-<pubDate>Wed, 16 Sep 2026 17:31:00 +0200</pubDate>
-<description>Nel tratto tra l’incrocio con la Quistello – Pieve e l’ingresso al centro abitato di Schivenoglia</description>
+<title>Scuola SI-CURA, bando per i Comuni al di sotto dei 15 mila abitanti</title>
+<link>https://www.provincia.mantova.it/news_detail.jsp?GTemplate=default.jsp&amp;ID_NEWS=3944&amp;areaNews=11</link>
+<guid isPermaLink="true">https://www.provincia.mantova.it/news_detail.jsp?GTemplate=default.jsp&amp;ID_NEWS=3944&amp;areaNews=11</guid>
+<pubDate>Tue, 15 Sep 2026 17:05:42 +0200</pubDate>
+<description>Messa in sicurezza edifici scolastici</description>
 </item>
 <item>
 <title>SETTIMANA CORTA, INCONTRO TR A IL PRESIDENTE DELLA PROVINCIA E LA CONSULTA</title>
@@ -110,6 +61,13 @@
 <guid isPermaLink="true">https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24091&amp;COL0003=1&amp;COL0003=2</guid>
 <pubDate>Mon, 07 Sep 2026 17:51:00 +0200</pubDate>
 <description>Il problema restano i trasporti</description>
+</item>
+<item>
+<title>Concessioni stradali e pubblicitarie, nuova procedura on line</title>
+<link>https://www.provincia.mantova.it/news_detail.jsp?GTemplate=default.jsp&amp;ID_NEWS=3941&amp;areaNews=11</link>
+<guid isPermaLink="true">https://www.provincia.mantova.it/news_detail.jsp?GTemplate=default.jsp&amp;ID_NEWS=3941&amp;areaNews=11</guid>
+<pubDate>Fri, 04 Sep 2026 11:05:21 +0200</pubDate>
+<description>Dal 5 ottobre 2026</description>
 </item>
 <item>
 <title>NUOVI ORARI SCOLASTICI SU CINQUE GIORNI, TRE ANNI DI SPERIMENTAZIONE</title>
@@ -126,25 +84,11 @@
 <description></description>
 </item>
 <item>
-<title>Riorganizzazazione coordinata degli orari scolastici, prono il protocollo che ora dovrŕ essere sottoscritto dai singoli istituti</title>
-<link>https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24075&amp;COL0003=1&amp;COL0003=2</link>
-<guid isPermaLink="true">https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24075&amp;COL0003=1&amp;COL0003=2</guid>
-<pubDate>Tue, 25 Aug 2026 15:40:00 +0200</pubDate>
-<description>Firmato oggi dal Presidente della Provincia il decreto che approva la versione finale del documento</description>
-</item>
-<item>
-<title>RIGENERAZIONE CANALI, PRONTO IL BANDO PER LA CONCESSIONE DI CONTRIBUTI AI COMUNI</title>
-<link>https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24065&amp;COL0003=1&amp;COL0003=2</link>
-<guid isPermaLink="true">https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24065&amp;COL0003=1&amp;COL0003=2</guid>
-<pubDate>Wed, 12 Aug 2026 14:00:00 +0200</pubDate>
-<description>Seconda edizione dell’iniziativa della Provincia. A disposizione 300 mila euro</description>
-</item>
-<item>
-<title>Manutenzione straordinaria delle strade provinciali: approvato il progetto esecutivo da 1,14 milioni di euro</title>
-<link>https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24062&amp;COL0003=1&amp;COL0003=2</link>
-<guid isPermaLink="true">https://www.provincia.mantova.it/cs_context.jsp?ID_LINK=41&amp;area=37&amp;id_context=24062&amp;COL0003=1&amp;COL0003=2</guid>
-<pubDate>Mon, 10 Aug 2026 13:40:00 +0200</pubDate>
-<description></description>
+<title>Attuazione misure PNRR</title>
+<link>https://www.provincia.mantova.it/news_detail.jsp?GTemplate=default.jsp&amp;ID_NEWS=3501&amp;areaNews=11</link>
+<guid isPermaLink="true">https://www.provincia.mantova.it/news_detail.jsp?GTemplate=default.jsp&amp;ID_NEWS=3501&amp;areaNews=11</guid>
+<pubDate>Wed, 10 May 2023 13:34:35 +0200</pubDate>
+<description>Gli interventi finanziati e la loro attuazione</description>
 </item>
 </channel>
 </rss>
